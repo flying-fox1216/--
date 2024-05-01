@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto auto;
+  width: 70%;
+}
+
+.wrap {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  text-align: center;
+}
+
+.vs {
+  margin: auto 0;
+  padding-block: 1rem;
+}
+
+.choose {
+  height: 100%;
+  display: flex;
+  padding-inline: 5rem;
+  padding-block: 2rem;
+}
+.choose_w {
+  margin: 0 auto;
+}
+
+.choose_w {
+  padding-block: 20rem;
+}
+
+.button_text {
+  padding-inline: 2.5rem;
+  padding-block: 1rem;
+}
+
+#habbit {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+#habbit:hover {
+  transform: translateY(-0.125rem) scale(1.5);
+  transition: all 0.3s ease-in-out;
+  margin-inline: 10.5rem;
+}
+
+#study {
+  z-index: 1;
+  cursor: pointer;
+  max-width: 50rem;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+#study:hover {
+  transform: translateY(-0.125rem) scale(1.5);
+  transition: all 0.3s ease-in-out;
+  margin-inline: 10.5rem;
+}/*# sourceMappingURL=css.css.map */
