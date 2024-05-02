@@ -8,11 +8,11 @@
     <title>쌓이는건?</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <div class="wrap">
         <div class="choose">
           <div class="choose_w">
-            <div class="button" id="study">
+            <div class="button" id="study" onclick="s_dis">
               <div class="button_text">
                 <div class="button_text_s">
                   <h2>공부하기</h2>
@@ -20,7 +20,7 @@
               </div>
             </div>
           </div>
-          <div class="vs">
+          <div class="vs" id="vs">
             <h2>VS</h2>
           </div>
           <div class="choose_w">
@@ -36,4 +36,35 @@
       </div>
     </div>
   </body>
+  <script>
+    const ss = document.getElementById("study");
+    const hh = document.getElementById("habbit");
+    const back = document.getElementById("container");
+    const vs = document.getElementById("vs");
+
+    document.getElementById("study").onclick = function s_dis() {
+      back.style.backgroundColor = "#F78181";
+      back.style.transition = "all 0.3s ease-in-out";
+      ss.style.transform = "translateY(-0.125rem) scale(1.5)";
+      ss.style.marginInline = "10rem";
+      hh.style.marginInline = "0rem";
+      hh.style.transform = "translateY(-0.125rem) scale(1)";
+    };
+
+    document.getElementById("habbit").onclick = function s_dis() {
+      back.style.backgroundColor = "#F5DA81";
+      back.style.transition = "all 0.3s ease-in-out";
+      hh.style.transform = "translateY(-0.125rem) scale(1.5)";
+      ss.style.transform = "translateY(-0.125rem) scale(1)";
+      hh.style.marginInline = "10rem";
+      ss.style.marginInline = "0rem";
+    };
+
+    document.getElementById("study").mouseOver = function () {
+      back.style.transition = "all 0.3s ease-in-out";
+      hh.style.transform = "translateY(-0.125rem) scale(1.5)";
+      ss.style.transform = "translateY(-0.125rem) scale(1)";
+      vs.style.fontSize = "15px";
+    };
+  </script>
 </html>

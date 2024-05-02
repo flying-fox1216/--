@@ -6,13 +6,10 @@
 
 .container {
   margin: auto auto;
-  width: 70%;
 }
 
 .wrap {
   margin-inline: auto;
-  padding-inline: 2rem;
-  padding-block: 2rem;
   text-align: center;
 }
 
@@ -24,15 +21,14 @@
 .choose {
   height: 100%;
   display: flex;
-  padding-inline: 5rem;
-  padding-block: 2rem;
+  padding-inline: 20rem;
 }
 .choose_w {
   margin: 0 auto;
 }
 
 .choose_w {
-  padding-block: 20rem;
+  padding-block: 27.5rem;
 }
 
 .button_text {

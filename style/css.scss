@@ -6,16 +6,17 @@
 
 .container {
   margin: auto auto;
+  // background-color: antiquewhite;
   //   padding-block: 20rem;
-  width: 70%;
+  // width: 70%;
   //   height: 100%;
   //   background-color: aqua;
 }
 
 .wrap {
   margin-inline: auto;
-  padding-inline: 2rem;
-  padding-block: 2rem;
+  // padding-inline: 2rem;
+  // padding-block: 2rem;
   text-align: center;
   //   background-color: red;
 }
@@ -23,18 +24,19 @@
 .vs {
   margin: auto 0;
   padding-block: 1rem;
+  // font-size: 50px;
   //   background-color: aquamarine;
 }
 
 .choose {
-  //   background-color: blue;
+  // background-color: blue;
   height: 100%;
   //   text-align: center;
   // position: relative;
   display: flex;
   //   float: left;
-  padding-inline: 5rem;
-  padding-block: 2rem;
+  padding-inline: 20rem;
+  // padding-block: 2rem;
   &_w {
     // width: 50%;
     // height: 50%;
@@ -45,8 +47,8 @@
 .choose_w {
   //   position: relative;
   //   height: 500px;
-  //   background-color: aquamarine;
-  padding-block: 20rem;
+  // background-color: aquamarine;
+  padding-block: 27.5rem;
 }
 
 .button {
